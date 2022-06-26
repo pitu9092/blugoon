@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>BLUGOON</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="blugoon.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+  <style>
+    /* * {
+      box-sizing: border-box;
+    }
+
+    .column {
+      float: left;
+      display: none;
+    }
+
+    .row:after {
+      content: "";
+      clear: both;
+    }
+
+    .show {
+      display: block;
+    }
+
+    .btn {
+      margin-top: 25px;
+      border: none;
+      outline: none;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #ddd;
+    }
+
+    .btn.active {
+      color: white;
+    }
+
+    body {
+      background: #111;
+    }
+
+    .container_last {
+      padding: 1rem;
+      column-count: 3;
+    }
+
+    .container_last img {
+      width: 100%;
+      margin-bottom: 1rem;
+      padding: 5px;
+    } */
+    /* 
+  .column {
+  float: left;
+  width: 33.33%;  
+  
+}
+.container_last{
+  padding: 1rem;
+  column-count: 3;
+}
+
+
+.container_last img{
+  width: 100%;
+  margin-bottom: 1rem; 
+  padding: 5px;  
+}
+
+ .filter-button {
+     font-size: 18px;
+     border-radius: 5px;
+     text-align: center;
+ }
+
+ .filter-button:hover {
+     font-size: 18px;
+   
+     border-radius: 5px;
+     text-align: center;
+     color: #ffffff;
+   
+ }
+
+ .btn-default:active .filter-button:active {
+    
+     color: white
+ }
+
+ img {
+     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+     border-radius: 5px
+ } */
+  </style>
+
+</head>
+
+<body>
+  <div class=" bg-info  px-lg-2">
+
+
+    <div class="sidebar bg-primary " id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" id="colsebtn" onclick="closeNav()">&times;</a>
+
+      <div class="image">
+        <img src="img/logo-image.jpg" class=" img_round mx-auto d-block mt-4" alt="this is hot gils img" />
+      </div>
+      <div class=" mt-3 text-center text-white">
+        <h1>Blugoon</h1>
+        <span>Free Bootstrap Theme</span>
+      </div>
+      <div class="mt-5 " id="saidnavmanu">
+        <!-- <div id="myDIVONE">
+          <button class="btn active">Intro</button>
+          <button class="btn ">Features</button>
+          <button class="btn">Gallery</button>
+          <button class="btn" href="#gohere">Contact</button>
+          
+        </div> -->
+
+
+
+        <ul class="nav flex-column text-center" id="myDIV">
+          <li class="nav-item border border-right-0 border-left-0 border-bottom-0">
+            <a class="nav-link active text-dark" href="#intro">Intro</a>
+          </li>
+          <li class="nav-item border border-right-0 border-left-0 border-bottom-0">
+            <a class="nav-link text-dark " href="#feature">Features</a>
+          </li>
+          <li class="nav-item border border-right-0 border-left-0 border-bottom-0">
+            <a class="nav-link  text-dark" href="#gallery">Gallery</a>
+          </li>
+          <li class="nav-item border border-right-0 border-left-0 mb-5">
+            <a class="nav-link text-dark" href="#gohere">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="mt-4 mb-5 text-center">
+        <button class="border-0 icon_wight_one "><i class="fa fa-facebook"></i></button>
+        <button class="border-0 icon_wight_one "><i class="fa fa-twitter"></i></button>
+        <button class="border-0 icon_wight_one "><i class="fa fa-linkedin"></i></button>
+        <button class="border-0 icon_wight_one "><i class="fa fa-dribbble"></i></button>
+        <button class="border-0 icon_wight_one mb-3 "><i class="fa fa-rss"></i></button>
+      </div>
+      <div class="text-center text-white my-5">
+        <p>Copyright 2020 Blugoon<br>
+          Design: Tooplate</p>
+      </div>
+
+    </div>
+
+    <!-- </div> -->
+    <!-- </div> -->
+    <span class="opanbtn navbar-fixed-top" onclick="openNav()">&#9776; </span>
+
+    <div class="contenttwo px-2 px-md-4 " id="intro">
+      <div class="container px-lg-5  text-white">
+        <div class=" border-bottom pb-5">
+          <section data-section="section1">
+
+            <div>
+              <img src="img/aerobic-girls.jpg" class="w-100 pt-0 mt-5 rounded" alt="aerobic girls" />
+            </div>
+            <div class="section-heading mt-5">
+              <h2>Introducing Blugoon</h2>
+              <div class="mb-4 mt-3 line"></div>
+              <span class="frist_box_text_size">Blugoon is free HTML template for everyone. This is a Bootstrap v4.3.1
+                layout which you can fully
+                customize for your websites. Please tell your friends about Tooplate. Thank you.</span>
+            </div>
+
+            <div class="row">
+              <div class=" col-lg-8 mt-5 col-md-8">
+                <div class="left-text frist_box_text_size">
+                  <h3>Modern Web Design</h3>
+                  <p class="mt-4 mb-3">You are allowed to use this template for commercial or personal websites. You are
+                    NOT
+                    allowed to
+                    redistribute this on template collection website. You can feature this template on your blog post.
+                  </p>
+                  <p>All photos in this template are from <a>Pexels</a> website. Blugoon HTML Template is provided by
+                    Tooplate. Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
+                  <div class="text-center text-lg-left">
+                    <button class="border-0 bg-light mt-3 p-2 ">Read More</button>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-5 col-lg-4 col-md-4 h-100 w-100 rounded float-right">
+                <img class="h-100 w-100 rounded float-right" src="img/mountain-reflection.jpg"
+                  alt="mountain-reflection" />
+              </div>
+            </div>
+          </section>
+        </div>
+        <section data-section="section1">
+          <div class=" mt-5 border-bottom pb-5">
+            <div class="row">
+              <div class="col-md-4">
+                <div>
+                  <img class="h-100 w-100 rounded mt-md-2" src="img/girl-nature-one.jpg" alt="Nature Girl" />
+                </div>
+              </div>
+
+              <div class="col-md-8 frist_box_text_size mt-4 mt-lg-0 mt-md-0">
+                <div>
+                  <h3>Best Template for you !</h3>
+                  <p class="mt-4">Quisque feugiat nisl at lacus condimentum, eu suscipit odio fringilla. Mauris eu est
+                    vitae erat condimentum pellentesque. Fusce vehicula nunc at augue sagittis tristique.</p>
+                  <p>Ut imperdiet massa at enim tempus volutpat. Nullam gravida augue quis facilisis commodo. Interdum
+                    et malesuada fames ac ante ipsum primis in faucibus.</p>
+                  <div class="text-center text-lg-left">
+                    <button class="border-0 bg-light mt-3 p-2 ">Read More</button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <section data-section="section2" id="feature">
+          <div class=" mt-5 border-bottom pb-4">
+            <div>
+              <h2>Greatest Features</h2>
+              <div class="line my-4"></div>
+              <div class="mt-3">
+                <span>Praesent posuere fringilla elit, non maximus tellus posuere nec. Nunc eu sapien nec est elementum
+                  sodales.</span>
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col-md-6">
+                <div class="main-item">
+                  <i class="fa fa-area-chart"></i>
+                  <h4>Top Performance</h4>
+                  <p>Donec sit amet tempor quam. Maecenas nec aliquam leo, sed tincidunt urna.</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="main-item">
+                  <i class=" fa-10x fa fa-check-square-o"></i>
+                  <h4>Trusted Service</h4>
+                  <p>Etiam at porta nulla, et euismod enim. Nullam semper ipsum et dui scelerisque.</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="main-item">
+                  <i class="fa fa-question-circle"></i>
+                  <h4>Need Help?</h4>
+                  <p>Phasellus orci leo, elementum ac risus id, euismod porta lorem. Quisque feugiat.</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="main-item">
+                  <i class="fa fa-support"></i>
+                  <h4>Quick Support</h4>
+                  <p>Mauris eu est vitae erat condimentum pellentesque. Fusce vehicula nunc kasdasd</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+        <section id="gallery">
+
+          <div class="mt-5">
+            <h2>Gallery</h2>
+            <div class="line my-4"></div>
+            <span class="frist_box_text_size">Donec sit amet enim tempor nisl fermentum aliquam. In consectetur
+              sapien eu nisi venenatis
+              lobortis. Sed ullamcorper tristique elit nec facilisi</span>
+          </div>
+
+
+          <div class="container">
+
+
+            <div class="text-center mt-5">
+              <button class="btn_one btn-default filter-button" data-filter="all">All</button>
+              <button class="btn_one btn-default filter-button" data-filter="hdpe"> pretty</button>
+              <button class="btn_one btn-default filter-button" data-filter="sprinkle">sexy</button>
+              <button class="btn_one btn-default filter-button" data-filter="spray">beach</button>
+
+            </div>
+
+            <br />
+
+            <div class="container_last container">
+
+              <div class="column w-100 gallery_product filter spray ">
+                <img class="img-responsive" src="img/woman-beach.jpg">
+              </div>
+
+              <div class="column w-100 gallery_product filter sprinkle ">
+                <img class="img-responsive" src="img/woman-bikini.jpg">
+              </div>
+
+              <div class="column w-100 gallery_product filter spray">
+                <img class="img-responsive" src="img/woman-feeling.jpg">
+              </div>
+
+              <div class="column w-100 gallery_product filter hdpe ">
+                <img class="img-responsive" src="img/escalator-blue.jpg">
+              </div>
+
+              <div class="column w-100 gallery_product filter hdpe">
+                <img class="img-responsive" src="img/woman-pretty.jpg">
+              </div>
+
+              <div class="column w-100 gallery_product filter sprinkle ">
+                <img class="img-responsive" src="img/woman-chair-sunshine.jpg">
+              </div>
+
+            </div>
+          </div>
+
+          <!-- secound try -->
+          <!-- <div id="myBtnContainer" class="text-center">
+            <button class="btn active" onclick="filterSelection('all')">All </button>
+            <button class="btn" onclick="filterSelection('nature')"> pretty</button>
+            <button class="btn" onclick="filterSelection('cars')"> sexy</button>
+            <button class="btn" onclick="filterSelection('people')"> beach</button>
+          </div>
+
+          <div class="container_last container ">
+
+            <div class="column people">
+              <div class="content">
+                <img class="img_size" src="img/woman-beach.jpg">
+                <div class="middle_one">
+                  <i class="fa fa-search   bg-success p-2 rounded icon_sixe"></i></a>
+                  <h4 class=" text mt-3">Girl One</h4>
+                  <span class=" text mb-5 ">woman at the beach</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="column cars">
+              <div class="content">
+                <img class="img_size" src="img/woman-feeling.jpg">
+                <div class="middle_one_two">
+                  <i class="fa fa-search   bg-success p-2 rounded icon_sixe"></i></a>
+                  <h4 class="mt-2  text">Her Feeling</h4>
+                  <span class="font_size text">Ut sollicitudin risus</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="column people">
+              <div class="content">
+                <img class="img_size" src="img/woman-chair-sunshine.jpg">
+                <div class="middle_one">
+                  <i class="fa fa-search   bg-success p-2 rounded icon_sixe"></i></a>
+                  <h4 class="mt-2 text">Sexy Lady</h4>
+                  <span class="font_size_1 text">there you go sexy girl</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="column nature">
+              <div class="content">
+                <img class="img_size" src="img/escalator-blue.jpg">
+                <div class="middle_one">
+                  <i class="fa fa-search   bg-success p-2 rounded icon_sixe"></i></a>
+                  <h5 class="mt-3 text">Escalator Up</h5>
+                  <span class="font_size text">Blue architecture building</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="column nature">
+              <div class="content">
+                <img class="img_size" src="img/woman-pretty.jpg">
+                <div class="middle_one">
+                  <i class="fa fa-search   bg-success p-2 rounded icon_sixe"></i></a>
+                  <h4 class="text mt-3">Pretty Girl</h4>
+                  <span class="font_size text">red flowers white girl</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="column cars">
+              <div class="content">
+
+                <img class="img_size" src="img/woman-bikini.jpg">
+                <div class="middle_one_last">
+                  <i class="fa fa-search   bg-success p-2 rounded icon_sixe"></i></a>
+                  <h4 class="mt-3 text ">Bikini Girl</h4>
+                  <span class="font_size_last text">Donec eget massa ante</span>
+                </div>
+              </div>
+            </div>
+
+          </div> -->
+
+
+
+
+          <!-- frist try -->
+
+          <!-- <div id="myBtnContainer" class="form_one mt-3">
+              <button class="btn active text-white" onclick="filterSelection('all')">All</button>
+              <button class="btn text-white" onclick="filterSelection('nature')"> pretty</button>
+              <button class="btn text-white" onclick="filterSelection('cars')"> sexy</button>
+              <button class="btn text-white" onclick="filterSelection('people')"> beach</button>
+            </div> -->
+          <!-- <div class="my-4">
+
+              <div class="row" id="disply_data">
+                <div class="col-sm">
+                  <div class="spach people">
+                    <div class="content">
+                      <img class="w-100 mb-3 rounded image shadow-1-strong" src="img/woman-beach.jpg ">
+                      <div class="middle_one">
+                        <i class="fa fa-search text fa-2x bg-success p-2 rounded"></i></a>
+                        <h4 class="text mt-3">Girl One</h4>
+                        <span class="text mb-5">woman at the beach</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="spach cars">
+                    <div class="content">
+                      <img class="w-100 rounded image" src="img/woman-chair-sunshine.jpg">
+                      <div class="middle_two">
+                        <i class="fa fa-search text fa-2x bg-success p-2 rounded"></i></a>
+                        <h4 class="text mt-3">Sexy Lady</h4>
+                      <span class="text mb-5">there you go sexy girl</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm">
+                  <div class="spach people">
+                    <img class="w-100 mb-3 rounded mt-3 mt-lg-0 mt-md-0 image" src="img/woman-feeling.jpg">
+                    <div class="middle_there">
+                      <i class="fa fa-search text fa-2x bg-success p-2 rounded"></i></a>
+                      <h4 class="text mt-3">Pretty Girl</h4>
+                      <span class="text mb-5">red flowers white girl</span>
+                    </div>
+                  </div>
+                  <div class="spach nature">
+                    <img class="w-100 rounded image" src="img/escalator-blue.jpg">
+                    <div class="middle_four">
+                      <i class="fa fa-search text fa-2x bg-success p-2 rounded"></i></a>
+                      <h4 class="text mt-3">Escalator Up</h4>
+                      <span class="text mb-5">Blue architecture building</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm">
+                  <div class="spach nature">
+                    <img class="w-100 mb-3 rounded mt-3 mt-lg-0 mt-md-0 image" src="img/woman-pretty.jpg">
+                    <div class="middle_five">
+                      <i class="fa fa-search text fa-2x bg-success p-2 rounded"></i></a>
+                      <h4 class="text mt-3">Her Feeling</h4>
+                      <span class="text mb-5">Ut sollicitudin risus</span>
+                    </div>
+                  </div>
+                  <div class="spach cars">
+                    <img class="w-100 rounded mt-2 mt-lg-0 mt-md-0 image" src="img/woman-bikini.jpg">
+                    <div class="middle_six">
+                      <i class="fa fa-search text fa-2x bg-success p-2 rounded"></i></a>
+                      <h4 class="text mt-3">Bikini Girl</h4>
+                      <span class="text mb-5">Donec eget massa ante</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+
+        </section>
+        <section data-section="section4" id="gohere">
+          <div class="mt-5">
+            <div>
+              <h2>Contact</h2>
+              <div class="line my-4"></div>
+              <span class="frist_box_text_size">Aenean a consectetur mi, sit amet consequat velit. Mauris vitae nunc
+                viverra, mattis arcu quis, vestibulum eros. </span>
+            </div>
+            <div class="row mt-5">
+              <div class="col-md-6">
+                <input name="name" type="text" class="form-control py-4" placeholder="Your name..." required="" />
+              </div>
+              <div class="col-md-6">
+                <input name="email" type="text" class="form-control py-4 mt-4 mt-lg-0 mt-md-0"
+                  placeholder="Your email..." required="" />
+              </div>
+              <div class="col-md-12 mt-4">
+                <input name="subject" type="text" class="form-control py-4" id="subject" placeholder="Subject..."
+                  required="" />
+              </div>
+              <div class="col-md-12 mt-4">
+                <textarea name="message" rows="7" class="form-control" id="message" placeholder="Your message..."
+                  required=""></textarea>
+              </div>
+              <div class="col-md-12 mt-3 text-center mb-5">
+                <button type="submit" class="border-0 bg-light mt-3 p-2">Send Message</button>
+              </div>
+
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+
+  <script type="text/javascript" src="blugoon.js"></script>
+  <script>
+    filterSelection("all")
+    function filterSelection(c) {
+      var x, i;
+      x = document.getElementsByClassName("column");
+      if (c == "all") c = "";
+      for (i = 0; i < x.length; i++) {
+        w3RemoveClass(x[i], "show");
+        if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+      }
+    }
+
+    function w3AddClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        if (arr1.indexOf(arr2[i]) == -1) { element.className += " " + arr2[i]; }
+      }
+    }
+
+    function w3RemoveClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        while (arr1.indexOf(arr2[i]) > -1) {
+          arr1.splice(arr1.indexOf(arr2[i]), 1);
+        }
+      }
+      element.className = arr1.join(" ");
+    }
+
+
+    // Add active class to the current button (highlight it)
+    var btnContainer = document.getElementById("myBtnContainer");
+    var btns = btnContainer.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function () {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+      });
+    }
+
+
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+
+    }
+    var header = document.getElementById("myDIV");
+    var btns = header.getElementsByClassName("nav-link");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function () {
+        var current = document.getElementsByClassName("active_one");
+        current[0].className = current[0].className.replace(" active_one", "");
+        this.className += " active_one";
+      });
+    }
+  </script>
+  <script>
+    $(document).ready(function () {
+
+      $(".filter-button").click(function () {
+        var value = $(this).attr('data-filter');
+
+        if (value == "all") {
+
+          $('.filter').show('1000');
+        }
+        else {
+
+          $(".filter").not('.' + value).hide('3000');
+          $('.filter').filter('.' + value).show('3000');
+
+        }
+      });
+
+      if ($(".filter-button").removeClass("active")) {
+        $(this).removeClass("active");
+      }
+      $(this).addClass("active");
+
+    });
+  </script>
+</body>
+
+</html>
